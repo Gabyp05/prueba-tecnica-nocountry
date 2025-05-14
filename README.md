@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Prueba Técnica - No Country
 
-## Getting Started
+Este proyecto es una prueba técnica desarrollada utilizando Next.js con TypeScript, Tailwind CSS para los estilos y Shadcn UI para los componentes de interfaz de usuario.
 
-First, run the development server:
+**Debido al tiempo disponible, el diseño implementado es básico y funcional.** El objetivo principal se centró en la correcta implementación de la estructura y la lógica solicitada.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologías Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Next.js:** Framework de React para la renderización del lado del servidor y la creación de aplicaciones web escalables.
+* **TypeScript:** Superset de JavaScript que añade tipado estático para mejorar la seguridad y el mantenimiento del código.
+* **Tailwind CSS:** Framework de CSS utilitario que permite un desarrollo rápido y flexible de la interfaz de usuario directamente en el HTML.
+* **Shadcn UI:** Colección de componentes de interfaz de usuario reutilizables y accesibles, construidos con Radix UI y Tailwind CSS.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Estructura del Proyecto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+La estructura del proyecto se ha organizado de la siguiente manera:
 
-## Learn More
+* **`types/`**: Esta carpeta contiene el archivo con las definiciones de tipos utilizados en la aplicación para asegurar la coherencia y la seguridad del tipado.
+* **`data/`**: Dentro de esta carpeta se encuentra el archivo que alberga los datos estáticos utilizados para la demostración. Esto permite tener datos de prueba fácilmente accesibles.
+* **`components/`**: Esta carpeta contiene todos los componentes reutilizables de la interfaz de usuario. Como se puede observar en la imagen, incluye los siguientes componentes:
+    * `ui/`: (componentes de Shadcn UI).
+    * `InsightsCarousel.tsx`: Componente para mostrar el carrusel de insights.
+    * `InsightsModal.tsx`: Componente para mostrar información detallada en una un modal.
+    * `Sidebar.tsx`: Componente para la barra lateral de navegación.
+    * `TeamDashboard.tsx`: Componente principal que representa el panel de control del equipo.
+    * `TeamMembers.tsx`: Componente para mostrar la lista de miembros del equipo.
+    * `TeamTabs.tsx`: Componente para la navegación mediante pestañas (tabs) dentro del panel del equipo.
 
-To learn more about Next.js, take a look at the following resources:
+## Consideraciones
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **Diseño Básico:** Dada la limitación de tiempo, el diseño se ha mantenido simple y funcional para asegurar la correcta implementación de la lógica y la estructura.
+* **Datos Estáticos:** Los datos utilizados en la aplicación son estáticos y están definidos en la carpeta `data`. En una aplicación real, estos datos provendrían de una API o una base de datos.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Próximos Pasos
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Mejora del diseño y la experiencia de usuario.
+* Implementación de funcionalidades adicionales.
