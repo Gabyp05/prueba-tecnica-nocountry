@@ -15,12 +15,14 @@ Este proyecto es una prueba técnica desarrollada utilizando Next.js con TypeScr
 
 La estructura del proyecto se ha organizado de la siguiente manera:
 
+![image](https://github.com/user-attachments/assets/e75cb52f-7ac7-4200-9181-77921d222bb3)
+
 * **`types/`**: Esta carpeta contiene el archivo con las definiciones de tipos utilizados en la aplicación para asegurar la coherencia y la seguridad del tipado.
 * **`data/`**: Dentro de esta carpeta se encuentra el archivo que alberga los datos estáticos utilizados para la demostración. Esto permite tener datos de prueba fácilmente accesibles.
 * **`components/`**: Esta carpeta contiene todos los componentes reutilizables de la interfaz de usuario. Como se puede observar en la imagen, incluye los siguientes componentes:
     * `ui/`: (componentes de Shadcn UI).
     * `InsightsCarousel.tsx`: Componente para mostrar el carrusel de insights.
-    * `InsightsModal.tsx`: Componente para mostrar información detallada en una un modal.
+    * `InsightsModal.tsx`: Componente para mostrar información detallada en un modal.
     * `Sidebar.tsx`: Componente para la barra lateral de navegación.
     * `TeamDashboard.tsx`: Componente principal que representa el panel de control del equipo.
     * `TeamMembers.tsx`: Componente para mostrar la lista de miembros del equipo.
